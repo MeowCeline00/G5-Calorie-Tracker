@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profilePic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .userName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .userName label {
+    margin-bottom: 5px;
+  }
+  
+  .userName input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .saveButton {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover {
+    background-color: #e68900;
+  }
+  

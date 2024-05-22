@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    bottom: 2.6%;
+    width: 393px; 
+    height: 77px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2E088;
+    border-radius: 10px;
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: -77px;
+  }
+  
+  .add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: none;
+  }
+  
