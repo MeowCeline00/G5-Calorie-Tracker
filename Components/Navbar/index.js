@@ -1,29 +1,27 @@
 import React from 'react';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
+  const router = useRouter();
+
   return (
-    <nav className={styles.navbar}>
-      <Link href="/home" passHref>
-        <div className={styles['nav-item']}>
+    <div className={styles.navContainer}>
+      <nav className={styles.navbar}>
+        <div className={styles.navItem} onClick={() => router.push('/home')}>
           <Image src="/images/home_icon.svg" alt="Home" width={55} height={55} />
         </div>
-      </Link>
-      <div className={styles['add-button-container']}>
-        <Link href="/add" passHref>
-          <div className={styles['add-button']}>
+        <div className={styles.addButtonContainer} onClick={() => router.push('/add')}>
+          <div className={styles.addButton}>
             <Image src="/images/add_icon.svg" alt="Add" width={66.67} height={66.67} />
           </div>
-        </Link>
-      </div>
-      <Link href="/recipes" passHref>
-        <div className={styles['nav-item']}>
+        </div>
+        <div className={styles.navItem} onClick={() => router.push('/recipes')}>
           <Image src="/images/recipes_icon.svg" alt="Recipes" width={55} height={55} />
         </div>
-      </Link>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
