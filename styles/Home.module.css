@@ -15,11 +15,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   text-align: center;
-  position: relative; /* To ensure the fixed navbar is positioned correctly */
+  position: relative; 
 }
 
 .header {

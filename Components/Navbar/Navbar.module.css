@@ -1,28 +1,22 @@
 .navContainer {
-    width: 100%;
+    width: 393px;
+    height: 77px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    top: 91.5%;
   }
   
   .navbar {
     width: 100%;
-    max-width: 393px; /* This should match the container's width */
-    height: 77px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #F2E088;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to match the container's shadow */
   }
   
   .navItem {
     display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
   }
   
@@ -32,9 +26,11 @@
     align-items: center;
     width: 70px;
     height: 70px;
+    padding: 5px;
     background-color: #ffffff;
     border-radius: 50%;
-    margin-top: -35px; /* Center the button */
+    position: absolute;
+    top: -35px; 
     cursor: pointer;
   }
   
