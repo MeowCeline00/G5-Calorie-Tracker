@@ -1,11 +1,13 @@
 import styles from '../styles/Breakfast.module.css';
 import Navbar from '@/Components/Navbar';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const Breakfast = () => {
 
 const [currentWeek, setCurrentWeek] = useState([])
 const [currentDate, setCurrentDate] = useState()
+const [features, setFeatures] = useState([])
 
 const getWeeklyCalendar = () => {
     const now = new Date();
@@ -28,7 +30,21 @@ useEffect(() => {
     getWeeklyCalendar()
 },[])
 
-console.log(currentDate)
+const addList = () => {
+    const newList = <div className={styles.inputContainer}>
+            <Image src="/egg.png" alt="Scan Button" width={50} height={50} />
+            <div className={styles.inputBox}>
+                <input></input>
+                <p>50g</p>
+            </div>
+            <div className={styles.calories}>
+                <p className={styles.number}>72</p>
+                <p className={styles.cal}>Cal</p>
+            </div>
+            <Image src="/delete.png" alt="Scan Button" width={50} height={50} />
+        </div>
+    setFeatures([...features, newList])
+}
 
   return (
     <>
@@ -63,6 +79,21 @@ console.log(currentDate)
                     <div className={currentWeek[6].getDate() === currentDate ? `${styles.calendar} ${styles.active}` : styles.calendar}>
                         <p>Sat</p>
                         <p>{currentWeek[6].getDate()}</p>
+                    </div>
+                </div>
+                <div className={styles.features}>
+                    <div className={styles.buttons}>
+                        <div className={styles.featureButton}>
+                            <Image src="/add.png" alt="Add Button" width={50} height={50} />
+                            <button onClick={() => addList()}>Add Food</button>
+                        </div>
+                        <div className={styles.featureButton}>
+                            <Image src="/scan.png" alt="Scan Button" width={50} height={50} />
+                            <button>Scan Barcode</button>
+                        </div>
+                    </div>
+                    <div>
+                        {features}
                     </div>
                 </div>
             </div>

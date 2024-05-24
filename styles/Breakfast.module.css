@@ -44,3 +44,56 @@
 .calendar.active {
     background-color: var(--orange_pink_opacity);
 }
+
+.inputContainer {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light_pink);
+    padding: 7px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.inputBox input {
+    border: 1px solid white;
+    background: var(--light_pink)
+}
+
+.inputBox p {
+    text-align: left;
+    color: var(--purple);
+    font-size: small;
+}
+
+.calories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.cal {
+    font-size: 21px;
+    color: var(--purple);
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureButton {
+    display: flex;
+}
+
+.featureButton button {
+    font-family: var(--body);
+}
