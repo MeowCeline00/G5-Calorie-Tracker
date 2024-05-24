@@ -1,0 +1,372 @@
+.add-page-child {
+    position: absolute;
+    top: 582px;
+    left: 0px;
+    width: 393px;
+    height: 55px;
+}
+.nav-bar-icon {
+    position: absolute;
+    top: 726px;
+    left: 0px;
+    width: 393px;
+    height: 126px;
+}
+.total-calories {
+    position: absolute;
+    top: 248px;
+    left: 120px;
+    font-size: var(--heading-26-regular-size);
+    font-weight: 500;
+    font-family: var(--heading-26-regular);
+    text-align: left;
+    display: inline-block;
+    width: 163px;
+    height: 42px;
+}
+.add-page-item {
+    position: absolute;
+    top: 588px;
+    left: 47px;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-sandybrown);
+    width: 297px;
+    height: 50px;
+}
+.add-page-inner {
+    position: absolute;
+    top: 657px;
+    left: 47px;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-sandybrown);
+    width: 297px;
+    height: 50px;
+}
+.confirm-and-continue {
+    position: absolute;
+    top: 595px;
+    left: 80px;
+    font-size: var(--body-24-regular-size);
+    display: inline-block;
+    width: 230px;
+    height: 42px;
+}
+.go-back {
+    position: absolute;
+    top: 664px;
+    left: 80px;
+    font-size: var(--body-24-regular-size);
+    display: inline-block;
+    width: 230px;
+    height: 42px;
+}
+.div {
+    position: absolute;
+    top: 176px;
+    left: 25px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div1 {
+    position: absolute;
+    top: 176px;
+    left: 76px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div2 {
+    position: absolute;
+    top: 176px;
+    left: 127px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div3 {
+    position: absolute;
+    top: 176px;
+    left: 229px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div4 {
+    position: absolute;
+    top: 176px;
+    left: 280px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div5 {
+    position: absolute;
+    top: 176px;
+    left: 331px;
+    display: inline-block;
+    width: 38px;
+    height: 42px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 143px;
+    left: 23px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child1 {
+    position: absolute;
+    top: 143px;
+    left: 74px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child2 {
+    position: absolute;
+    top: 143px;
+    left: 125px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child3 {
+    position: absolute;
+    top: 143px;
+    left: 176px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child4 {
+    position: absolute;
+    top: 143px;
+    left: 227px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child5 {
+    position: absolute;
+    top: 143px;
+    left: 278px;
+    border-radius: var(--br-xl);
+    background-color: rgba(242, 126, 99, 0.7);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child6 {
+    position: absolute;
+    top: 143px;
+    left: 329px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.sun {
+    position: absolute;
+    top: 156px;
+    left: 23px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.mon {
+    position: absolute;
+    top: 156px;
+    left: 74px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.tue {
+    position: absolute;
+    top: 156px;
+    left: 125px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.wed {
+    position: absolute;
+    top: 156px;
+    left: 176px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.thur {
+    position: absolute;
+    top: 156px;
+    left: 227px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.fri {
+    position: absolute;
+    top: 156px;
+    left: 278px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.sat {
+    position: absolute;
+    top: 156px;
+    left: 329px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.div6 {
+    position: absolute;
+    top: 176px;
+    left: 176px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.daily-total {
+    position: absolute;
+    top: 72px;
+    left: 27px;
+    font-size: var(--heading-26-regular-size);
+    font-weight: 500;
+    font-family: var(--heading-26-regular);
+    text-align: left;
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+}
+.hugeiconsworkout-run {
+    position: absolute;
+    top: 81px;
+    left: 168px;
+    width: 25px;
+    height: 25px;
+}
+.add-page-child7 {
+    position: absolute;
+    top: 77px;
+    left: 245px;
+    border-radius: var(--br-xl);
+    background-color: #fff;
+    border: 3px solid var(--yellow);
+    box-sizing: border-box;
+    width: 124px;
+    height: 33px;
+}
+.cal {
+    position: absolute;
+    top: 78px;
+    left: 314px;
+    font-size: var(--body-20-medium-size);
+    font-weight: 500;
+    color: var(--purple);
+    text-align: right;
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+}
+.add-page-child8 {
+    position: absolute;
+    top: 295px;
+    left: 20px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 350px;
+    height: 66px;
+}
+.add-page-child9 {
+    position: absolute;
+    top: 393px;
+    left: 20px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 350px;
+    height: 66px;
+}
+.add-page-child10 {
+    position: absolute;
+    top: 497px;
+    left: 20px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 350px;
+    height: 66px;
+}
+.your-daily-caloric {
+    position: absolute;
+    top: 310px;
+    left: 98px;
+    font-size: var(--body-20-medium-size);
+}
+.div7 {
+    position: absolute;
+    top: 355px;
+    left: 200px;
+    font-size: var(--body-20-medium-size);
+}
+.div8 {
+    position: absolute;
+    top: 463px;
+    left: 200px;
+    font-size: var(--body-20-medium-size);
+}
+.your-total-calories {
+    position: absolute;
+    top: 408px;
+    left: 89px;
+    font-size: var(--body-20-medium-size);
+}
+.your-caloric-total {
+    position: absolute;
+    top: 512px;
+    left: 125px;
+    font-size: var(--body-20-medium-size);
+}
+.cal1 {
+    position: absolute;
+    top: 335px;
+    left: 285px;
+    font-size: var(--font-size-base);
+    color: var(--purple);
+    text-align: right;
+}
+.cal2 {
+    position: absolute;
+    top: 433px;
+    left: 285px;
+    font-size: var(--font-size-base);
+    color: var(--purple);
+    text-align: right;
+}
+.cal3 {
+    position: absolute;
+    top: 537px;
+    left: 247px;
+    font-size: var(--font-size-base);
+    color: var(--purple);
+    text-align: right;
+}
+.add-page {
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.92);
+    height: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--body-20-medium);
+}
+

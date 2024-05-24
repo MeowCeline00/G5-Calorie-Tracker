@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    --body-20-medium: Catamaran;
+    --heading-26-regular: Saira;
+    
+    --body-20-medium-size: 20px;
+    --body-24-regular-size: 24px;
+    --font-size-sm: 14px;
+    --heading-26-regular-size: 26px;
+    
+    --color-cornflowerblue: #9e9bf2;
+    --color-black: #000;
+    --lighter-nav-bar: rgba(247, 232, 229, 0.9);
+    --yellow: #f2e088;
+    --color-sandybrown: rgba(242, 149, 68, 0.8);
+    
+    --br-xl: 20px;
+    --br-17xl: 36px;
+    
+}
