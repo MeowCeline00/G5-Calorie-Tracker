@@ -32,7 +32,7 @@ useEffect(() => {
 
 const addList = () => {
     const newList = <div className={styles.inputContainer}>
-            <Image src="/egg.png" alt="egg" width={35} height={35} />
+            <Image src="/egg.png" alt="egg" width={28} height={28} />
             <div className={styles.inputBox}>
                 <input></input>
                 <p>50g</p>
@@ -41,7 +41,7 @@ const addList = () => {
                 <p className={styles.number}>72</p>
                 <p className={styles.cal}>Cal</p>
             </div>
-            <Image src="/delete.png" alt="Scan Button" width={35} height={35} />
+            <Image className={styles.trash} src="/delete.png" alt="trashcan" width={30} height={30} />
         </div>
     setFeatures([...features, newList])
 }
@@ -53,9 +53,11 @@ const addList = () => {
             <div className={styles.breakfasts}>
                 <div className={styles.topContainer}>
                     <div className={styles.topContents}>
-                        <p className={styles.header}>Breakfast</p>
-                        <Image src="/coffee.png" alt="Coffee" width={35} height={35} />
-                        <p>Cal</p>
+                        <div className={styles.breakfastHead}>
+                            <p className={styles.header}>Breakfast</p>
+                            <Image src="/coffee.png" alt="Coffee" width={25} height={25} />
+                        </div>
+                        <p className={styles.topBody}>cal</p>
                     </div>
                 </div>
                 <div className={styles.weeklyCalendarContainer}>
@@ -104,6 +106,9 @@ const addList = () => {
                     <div>
                         {features}
                     </div>
+                </div>
+                <div className={styles.bottomContainer}>
+                    <button>Calculate calories</button>
                 </div>
             </div>
             <Navbar />
