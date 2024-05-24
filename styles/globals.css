@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
     --purple: #9E9BF2;
     --yellow: #F2E088;
     --light_orange: #F29544;
     --orange_red: #F24405;
     --orange_pink: #F27E63;
+    --orange_pink_opacity: #f27d63bf;
     --light_pink: #F7E8E5;
+    --heading: "Saira";
+    --body: "Catamaran";
 }
   body, html {
     margin: 0;
@@ -13,6 +18,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: var(--body);
   }
 
   /* .container {
