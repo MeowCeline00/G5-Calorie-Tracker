@@ -1,19 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from './TopBar.module.css';
 
-const TopBar = () => {
+const TopBar = ({ userName, userPhoto }) => {
   return (
     <div className={styles.topBar}>
       <div className={styles.greeting}>
         <h2>Hello,</h2>
-        <p>User Name</p>
+        <p>{userName}</p>
       </div>
       <div className={styles.profileIcon}>
-        <Link href="/profile">
-          <Image src="/images/profile_icon.svg" alt="Profile" width={24} height={24} />
-        </Link>
+        <Image src={userPhoto} alt="Profile" width={24} height={24} />
       </div>
     </div>
   );

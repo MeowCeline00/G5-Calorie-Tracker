@@ -1,0 +1,49 @@
+.mealItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 12px;
+    background-color: var(--light_pink);
+    width: 350px;
+    height: 147px;
+    position: relative; 
+  }
+  
+  .calorieContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 162px;
+    height: 43px;
+    background-color: white;
+    border: 4px solid var(--yellow);
+    border-radius: 30px;
+    padding: 0 10px;
+  }
+  
+  .mealHeading {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .mealDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mealDetails p {
+    margin-left: 110px;
+    color: var(--purple);
+  }
+  
+  .addButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 10px; 
+    right: 5px; 
+  }
+  

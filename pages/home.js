@@ -12,15 +12,11 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <TopBar userName={userName} userPhoto={userPhoto} />
-      <header className={styles.header}>
-        <h2>Hello, {userName}</h2>
-        <p>12th May 2024</p>
-      </header>
       <div className={styles.meals}>
-        <MealItem meal="Breakfast" iconSrc="/images/breakfast_icon.svg" calories="252" />
-        <MealItem meal="Lunch" iconSrc="/images/lunch_icon.svg" calories="350" />
-        <MealItem meal="Dinner" iconSrc="/images/dinner_icon.svg" calories="500" />
-        <MealItem meal="Snacks" iconSrc="/images/snacks_icon.svg" calories="150" />
+        <MealItem meal="Breakfast" iconSrc="/images/breakfast_icon.svg" calories="" />
+        <MealItem meal="Lunch" iconSrc="/images/lunch_icon.svg" calories="" />
+        <MealItem meal="Dinner" iconSrc="/images/dinner_icon.svg" calories="" />
+        <MealItem meal="Snacks" iconSrc="/images/snacks_icon.svg" calories="" />
       </div>
       <Navbar />
     </div>
