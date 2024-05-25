@@ -1,4 +1,3 @@
-// mealItem.js
 function renderMealItem(meal, iconSrc, mealName, calories, onClick = '') {
     return `
       <div class="mealItem_container">

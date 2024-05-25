@@ -1,5 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+    navigateTo('home');
+});
+
 function navigateTo(page) {
-    switch (page) {
+    switch(page) {
         case 'home':
             renderHomePage();
             break;
@@ -9,12 +13,5 @@ function navigateTo(page) {
         case 'lunchCalorie':
             renderLunchCaloriePage();
             break;
-        default:
-            renderLandingPage();
-            break;
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    renderLandingPage();
-});

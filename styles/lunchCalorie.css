@@ -1,25 +1,19 @@
 .mainContent {
     width: 100%;
-    max-width: 393px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    justify-content: flex-start;
+    position: relative;
 }
 
 .lunch_topBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: var(--white);
+    padding: 15px;
+    background-color: var(--light_pink);
     border-bottom: 2px solid var(--yellow);
-}
-
-.lunch_topBar h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #000;
 }
 
 .lunch_icon {
@@ -32,45 +26,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
-    border: 2px solid var(--yellow);
-    border-radius: 30px;
-    padding: 5px 10px;
-}
-
-.lunch_calorie_container p {
-    margin: 0 10px 0 0;
-    font-size: 1rem;
-    color: var(--purple);
 }
 
 .lunch_word_calorie {
-    color: var(--yellow);
-    font-size: 1rem;
+    margin-left: 5px;
+    color: var(--purple);
 }
 
 .dateChange {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     background-color: var(--white);
 }
 
-.meal_container {
-    flex: 1;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto;
-    position: relative;
-}
-
-.addButtons {
+.add_lunch_meal_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
+    background-color: var(--white);
 }
 
 .addButtonContainer, .scanButtonContainer {
@@ -81,35 +57,93 @@
 }
 
 .addButtonContainer img, .scanButtonContainer img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.addButtonContainer p, .scanButtonContainer p {
+    margin-top: 5px;
+    color: var(--purple);
+    font-size: 0.9rem;
 }
 
 .lunch_items_calories {
-    width: 100%;
-    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
 }
 
 .foodItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 12px;
     background-color: var(--light_pink);
+    padding: 10px;
+    border-radius: 8px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .foodItem p {
     margin: 0;
+    color: var(--purple);
+}
+
+.foodItem img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .calculateButton {
     width: 100%;
     padding: 15px;
     background-color: var(--light_orange);
-    border: none;
-    border-radius: 36px;
     color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

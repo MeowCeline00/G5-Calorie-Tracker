@@ -1,4 +1,3 @@
-// home.js
 function renderHomePage() {
     const root = document.getElementById('root');
     const userName = localStorage.getItem('userName') || 'User Name';
@@ -26,7 +25,7 @@ function renderHomePage() {
         <div class="meal_container">
           <div class="meals">
             ${renderMealItem('Breakfast', './images/breakfast_icon.svg', '', breakfastCalories)}
-            ${renderMealItem('Lunch', './images/lunch_icon.svg', '', lunchCalories, 'navigateTo(\'lunchCalorie\')')}
+            ${renderMealItem('Lunch', './images/lunch_icon.svg', '', lunchCalories, "navigateTo('lunchCalorie')")}
             ${renderMealItem('Dinner', './images/dinner_icon.svg', '', dinnerCalories)}
             ${renderMealItem('Snacks', './images/snacks_icon.svg', '', snacksCalories)}
           </div>
