@@ -1,7 +1,13 @@
+// home.js
 function renderHomePage() {
     const root = document.getElementById('root');
     const userName = localStorage.getItem('userName') || 'User Name';
     const userPhoto = localStorage.getItem('userPhoto') || './images/profile_icon.svg';
+
+    const breakfastCalories = localStorage.getItem('breakfastCalories') || 0;
+    const lunchCalories = localStorage.getItem('lunchCalories') || 0;
+    const dinnerCalories = localStorage.getItem('dinnerCalories') || 0;
+    const snacksCalories = localStorage.getItem('snacksCalories') || 0;
 
     root.innerHTML = `
       <div class="mainContent">
@@ -19,10 +25,10 @@ function renderHomePage() {
         </div>
         <div class="meal_container">
           <div class="meals">
-            ${renderMealItem('Breakfast', './images/breakfast_icon.svg', '', '')}
-            ${renderMealItem('Lunch', './images/lunch_icon.svg', '', '')}
-            ${renderMealItem('Dinner', './images/dinner_icon.svg', '', '')}
-            ${renderMealItem('Snacks', './images/snacks_icon.svg', '', '')}
+            ${renderMealItem('Breakfast', './images/breakfast_icon.svg', '', breakfastCalories)}
+            ${renderMealItem('Lunch', './images/lunch_icon.svg', '', lunchCalories, 'navigateTo(\'lunchCalorie\')')}
+            ${renderMealItem('Dinner', './images/dinner_icon.svg', '', dinnerCalories)}
+            ${renderMealItem('Snacks', './images/snacks_icon.svg', '', snacksCalories)}
           </div>
         </div>
         ${renderNavbar()}
