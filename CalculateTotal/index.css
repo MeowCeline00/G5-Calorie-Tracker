@@ -361,6 +361,7 @@
 .add-page {
     width: 100%;
     position: relative;
+    left: 50px;
     background-color: rgba(255, 255, 255, 0.92);
     height: 852px;
     overflow: hidden;
@@ -370,3 +371,64 @@
     font-family: var(--body-20-medium);
 }
 
+.navBar {
+    background-color: #F2E088;
+    width: 430px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.image1 {
+    width: 50px;
+    height: 42.5;
+}
+.image02 {
+    position: relative;
+    width: 66.67px;
+    height: 66.67px;
+    background-color: #fff;
+    padding:0.25em ;
+    border-radius: 360px;
+    top: -50px;
+}
+
+.image03 {
+    width: 41.25px;
+    height: 45.58;
+}
+
+.navBar a {
+    padding: 0em;
+    margin: 0em;
+}
+
+.pageContainer {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.pageInnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.add-page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

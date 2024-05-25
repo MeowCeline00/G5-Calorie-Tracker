@@ -5,6 +5,69 @@
     width: 393px;
     height: 55px;
 }
+.add-page-item {
+    position: absolute;
+    top: 143px;
+    left: 26px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-inner {
+    position: absolute;
+    top: 143px;
+    left: 77px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 143px;
+    left: 128px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child1 {
+    position: absolute;
+    top: 143px;
+    left: 179px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child2 {
+    position: absolute;
+    top: 143px;
+    left: 230px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child3 {
+    position: absolute;
+    top: 143px;
+    left: 281px;
+    border-radius: var(--br-xl);
+    background-color: rgba(242, 126, 99, 0.7);
+    width: 40px;
+    height: 67px;
+}
+.add-page-child4 {
+    position: absolute;
+    top: 143px;
+    left: 332px;
+    border-radius: var(--br-xl);
+    background-color: var(--lighter-nav-bar);
+    width: 40px;
+    height: 67px;
+}
 .nav-bar-icon {
     position: absolute;
     top: 726px;
@@ -24,7 +87,131 @@
     width: 163px;
     height: 42px;
 }
-.add-page-item {
+.breakfast {
+    position: absolute;
+    top: 72px;
+    left: 26px;
+    font-size: var(--heading-26-regular-size);
+    font-weight: 500;
+    font-family: var(--heading-26-regular);
+    text-align: left;
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+}
+.div {
+    position: absolute;
+    top: 176px;
+    left: 26px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.sun {
+    position: absolute;
+    top: 156px;
+    left: 26px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.mon {
+    position: absolute;
+    top: 156px;
+    left: 77px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.tue {
+    position: absolute;
+    top: 156px;
+    left: 128px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.wed {
+    position: absolute;
+    top: 156px;
+    left: 179px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.thur {
+    position: absolute;
+    top: 156px;
+    left: 230px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.fri {
+    position: absolute;
+    top: 156px;
+    left: 281px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.sat {
+    position: absolute;
+    top: 156px;
+    left: 332px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.div1 {
+    position: absolute;
+    top: 176px;
+    left: 77px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div2 {
+    position: absolute;
+    top: 176px;
+    left: 128px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div3 {
+    position: absolute;
+    top: 176px;
+    left: 179px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div4 {
+    position: absolute;
+    top: 176px;
+    left: 230px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div5 {
+    position: absolute;
+    top: 176px;
+    left: 281px;
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+}
+.div6 {
+    position: absolute;
+    top: 176px;
+    left: 332px;
+    display: inline-block;
+    width: 38px;
+    height: 42px;
+}
+.add-page-child5 {
     position: absolute;
     top: 588px;
     left: 47px;
@@ -33,7 +220,7 @@
     width: 297px;
     height: 50px;
 }
-.add-page-inner {
+.add-page-child6 {
     position: absolute;
     top: 657px;
     left: 47px;
@@ -60,7 +247,37 @@
     width: 230px;
     height: 42px;
 }
-.rectangle-div {
+.add-page-child7 {
+    position: absolute;
+    top: 77px;
+    left: 244px;
+    border-radius: var(--br-xl);
+    background-color: #fff;
+    border: 3px solid var(--yellow);
+    box-sizing: border-box;
+    width: 124px;
+    height: 33px;
+}
+.cal {
+    position: absolute;
+    top: 78px;
+    left: 313px;
+    font-size: var(--body-20-medium-size);
+    font-weight: 500;
+    color: var(--color-cornflowerblue);
+    text-align: right;
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+}
+.fluent-mdl2breakfast-icon {
+    position: absolute;
+    top: 81px;
+    left: 164px;
+    width: 25px;
+    height: 25px;
+}
+.add-page-child8 {
     position: absolute;
     top: 290px;
     left: 20px;
@@ -75,230 +292,15 @@
     left: 63px;
     font-size: var(--body-20-medium-size);
 }
-.cal {
-    position: absolute;
-    top: 386px;
-    left: 207px;
-    font-size: 64px;
-    color: var(--purple);
-    text-align: right;
-}
-.div {
-    position: absolute;
-    top: 176px;
-    left: 25px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.div1 {
-    position: absolute;
-    top: 176px;
-    left: 76px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.div2 {
-    position: absolute;
-    top: 176px;
-    left: 127px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.div3 {
-    position: absolute;
-    top: 176px;
-    left: 229px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.div4 {
-    position: absolute;
-    top: 176px;
-    left: 280px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.div5 {
-    position: absolute;
-    top: 176px;
-    left: 331px;
-    display: inline-block;
-    width: 38px;
-    height: 42px;
-}
-.add-page-child1 {
-    position: absolute;
-    top: 143px;
-    left: 23px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child2 {
-    position: absolute;
-    top: 143px;
-    left: 74px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child3 {
-    position: absolute;
-    top: 143px;
-    left: 125px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child4 {
-    position: absolute;
-    top: 143px;
-    left: 176px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child5 {
-    position: absolute;
-    top: 143px;
-    left: 227px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child6 {
-    position: absolute;
-    top: 143px;
-    left: 278px;
-    border-radius: var(--br-xl);
-    background-color: rgba(242, 126, 99, 0.7);
-    width: 40px;
-    height: 67px;
-}
-.add-page-child7 {
-    position: absolute;
-    top: 143px;
-    left: 329px;
-    border-radius: var(--br-xl);
-    background-color: var(--lighter-nav-bar);
-    width: 40px;
-    height: 67px;
-}
-.dinner {
-    position: absolute;
-    top: 72px;
-    left: 23px;
-    font-size: var(--heading-26-regular-size);
-    font-weight: 500;
-    font-family: var(--heading-26-regular);
-    text-align: left;
-    display: inline-block;
-    width: 130px;
-    height: 42px;
-}
-.sun {
-    position: absolute;
-    top: 156px;
-    left: 23px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.mon {
-    position: absolute;
-    top: 156px;
-    left: 74px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.tue {
-    position: absolute;
-    top: 156px;
-    left: 125px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.wed {
-    position: absolute;
-    top: 156px;
-    left: 176px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.thur {
-    position: absolute;
-    top: 156px;
-    left: 227px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.fri {
-    position: absolute;
-    top: 156px;
-    left: 278px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.sat {
-    position: absolute;
-    top: 156px;
-    left: 329px;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-.div6 {
-    position: absolute;
-    top: 176px;
-    left: 176px;
-    display: inline-block;
-    width: 40px;
-    height: 42px;
-}
-.mdidinner-icon {
-    position: absolute;
-    top: 81px;
-    left: 140px;
-    width: 25px;
-    height: 25px;
-}
-.add-page-child8 {
-    position: absolute;
-    top: 77px;
-    left: 241px;
-    border-radius: var(--br-xl);
-    background-color: #fff;
-    border: 3px solid var(--yellow);
-    box-sizing: border-box;
-    width: 124px;
-    height: 33px;
+.cal2 {
+    color: var(--color-cornflowerblue);
 }
 .cal1 {
     position: absolute;
-    top: 78px;
-    left: 310px;
-    font-size: var(--body-20-medium-size);
-    font-weight: 500;
-    color: var(--purple);
+    top: 386px;
+    left: 113px;
+    font-size: 64px;
     text-align: right;
-    display: inline-block;
-    width: 40px;
-    height: 23px;
 }
 .add-page {
     width: 100%;
@@ -310,5 +312,68 @@
     font-size: var(--font-size-sm);
     color: var(--color-black);
     font-family: var(--body-20-medium);
+    left: 40px;
 }
 
+
+.navBar {
+    background-color: #F2E088;
+    width: 430px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.image1 {
+    width: 50px;
+    height: 42.5;
+}
+.image02 {
+    position: relative;
+    width: 66.67px;
+    height: 66.67px;
+    background-color: #fff;
+    padding:0.25em ;
+    border-radius: 360px;
+    top: -50px;
+}
+
+.image03 {
+    width: 41.25px;
+    height: 45.58;
+}
+
+.navBar a {
+    padding: 0em;
+    margin: 0em;
+}
+
+.pageContainer {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.pageInnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.add-page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
