@@ -1,0 +1,27 @@
+:root {
+    --purple: #9E9BF2;
+    --yellow: #F2E088;
+    --light_orange: #F29544;
+    --orange_red: #F24405;
+    --orange_pink: #F27E63;
+    --light_pink: #F7E8E5;
+    --white: #ffffff;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #root {
+    width: 100%;
+    max-width: 393px;
+    height: 852px;
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  

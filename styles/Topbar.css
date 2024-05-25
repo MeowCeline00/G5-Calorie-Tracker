@@ -1,0 +1,35 @@
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    top: 10%;
+    padding: 15px 20px;
+    background-color: var(--white);
+  }
+  
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .greeting h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+  .greeting p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .profileIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
