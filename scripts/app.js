@@ -1,23 +1,20 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const root = document.getElementById('root');
-    let currentPage = 'landing';
-  
-    const renderPage = () => {
-      root.innerHTML = '';
-      if (currentPage === 'landing') {
-        renderLandingPage();
-      } else if (currentPage === 'home') {
-        renderHomePage();
-      } else if (currentPage === 'profile') {
-        renderProfilePage();
-      }
-    };
-  
-    window.navigateTo = (page) => {
-      currentPage = page;
-      renderPage();
-    };
-  
-    renderPage();
-  });
-  
+function navigateTo(page) {
+    switch (page) {
+        case 'home':
+            renderHomePage();
+            break;
+        case 'profile':
+            renderProfilePage();
+            break;
+        case 'lunchCalorie':
+            renderLunchCaloriePage();
+            break;
+        default:
+            renderLandingPage();
+            break;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderLandingPage();
+});
