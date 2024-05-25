@@ -122,7 +122,6 @@
 .action-btn:hover {
   background-color: rgba(242, 126, 99, 0.7);
 }
-
 .buttons {
   display: flex;
   width: 100%;
@@ -131,7 +130,22 @@
   gap: 5px;
   margin-bottom: 30px;
 }
-
+.bottomContainer {
+  margin-top: 30px;
+  width: 100%;
+}
+.bottomContainer button {
+  font-family: 'Catamaran';
+  font-size: large;
+  background-color: var(--light_orange_opacity);
+  border: none;
+  padding: 7px 60px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.bottomContainer button:hover {
+  background-color: var(--light_orange);
+}
 .popup-container {
   display: none;
   position: fixed;

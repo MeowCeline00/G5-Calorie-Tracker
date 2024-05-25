@@ -14,26 +14,34 @@
       <button class="calButton">0 cal</button>
     </header>
     <section class="dateSelector">
-      <button class="dateNav" id="prevDate"></button>
+      <button class="dateNav" id="prevDate">
+      </button>
       <div class="dates" id="dateList"></div>
-      <button class="dateNav" id="nextDate"></button>
+      <button class="dateNav" id="nextDate">
+      </button>
     </section>
     <main>
       <div class="actions">
         <div class="actions">
           <img src="/images/add.png" alt="Add Icon" width="35" height="35">
-          <button class="action-btn" id="showFormButton">Add Exercise</button>
+          <button class="action-btn" id="showFormButton">Add E</button>
+        </div>
+        <div class="actions">
+          <img src="/images/scan.png" alt="Scan Icon" width="30" height="30">
+          <button class="action-btn">Scan Barcode</button>
         </div>
       </div>
-      <div class="exercise-list"></div>
+      <div class="food-list">
+      </div>
       <button class="calculate-btn">
         <a href="calculate.html" class="calculate-btn-link">Calculate Calories</a></button>
     </main>
-    <div class="popup-container" id="exerciseFormContainer">
+    <div class="popup-container" id="foodFormContainer">
       <div class="popup">
-        <input type="text" id="exerciseName" placeholder="Exercise Name">
-        <input type="number" id="exerciseCalories" placeholder="Calories">
-        <button id="addExerciseButton">Add</button>
+        <input type="text" id="foodName" placeholder="Food Name">
+        <input type="number" id="foodAmount" placeholder="Amount (g)">
+        <input type="number" id="foodCalories" placeholder="Calories">
+        <button id="addFoodButton">Add</button>
         <button id="cancelButton">Cancel</button>
       </div>
     </div>

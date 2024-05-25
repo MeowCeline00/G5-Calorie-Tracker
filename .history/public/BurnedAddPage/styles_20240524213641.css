@@ -122,7 +122,6 @@
 .action-btn:hover {
   background-color: rgba(242, 126, 99, 0.7);
 }
-
 .buttons {
   display: flex;
   width: 100%;
@@ -131,7 +130,22 @@
   gap: 5px;
   margin-bottom: 30px;
 }
-
+.bottomContainer {
+  margin-top: 30px;
+  width: 100%;
+}
+.bottomContainer button {
+  font-family: 'Catamaran';
+  font-size: large;
+  background-color: var(--light_orange_opacity);
+  border: none;
+  padding: 7px 60px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.bottomContainer button:hover {
+  background-color: var(--light_orange);
+}
 .popup-container {
   display: none;
   position: fixed;
@@ -167,7 +181,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-#addExerciseButton {
+#addFoodButton {
   background-color: #ffa07a;
   color: #000;
   margin-left: 70px;
@@ -176,7 +190,7 @@
   background-color: #F2E088;
   color: #000;
 }
-#addExerciseButton:hover {
+#addFoodButton:hover {
   background-color: rgb(255, 160, 122, 0.6);
 }
 #cancelButton:hover {
@@ -193,9 +207,11 @@
   border-radius: 20px;
   margin-bottom: 15px;
   position: relative;
-  padding-left: 20px;
-  padding-right: 10px;
+  padding-left: 20px; 
+  padding-right: 10px; 
+
 }
+
 .inputBox {
   flex-grow: 1;
 }
@@ -217,6 +233,7 @@
   color: #9E9BF2;
   align-items: center;
   margin-right: 60px;
+
   gap: 5px;
 }
 .number {

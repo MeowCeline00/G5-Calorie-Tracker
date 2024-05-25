@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   const showFormButton = document.getElementById('showFormButton');
-  const exerciseFormContainer = document.getElementById('exerciseFormContainer');
-  const addExerciseButton = document.getElementById('addExerciseButton');
+  const foodFormContainer = document.getElementById('foodFormContainer');
+  const addFoodButton = document.getElementById('addFoodButton');
   const cancelButton = document.getElementById('cancelButton');
-  const exerciseList = document.querySelector('.exercise-list');
+  const foodList = document.querySelector('.food-list');
   const calButton = document.querySelector('.calButton');
   const dateList = document.getElementById('dateList');
 
@@ -53,29 +53,30 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   const showForm = () => {
-    exerciseFormContainer.style.display = 'flex';
+    foodFormContainer.style.display = 'flex';
   };
 
   const hideForm = () => {
-    exerciseFormContainer.style.display = 'none';
+    foodFormContainer.style.display = 'none';
     clearForm();
   };
 
-  const addList = (exerciseName, exerciseCalories) => {
+  const addList = (foodName, foodAmount, foodCalories) => {
     const newList = `
       <div class="inputContainer">
         <div class="inputBox">
-          <input type="text" value="${exerciseName}" readonly>
+          <input type="text" value="${foodName}" readonly>
+          <p>${foodAmount}g</p>
         </div>
         <div class="calories">
-          <p class="number">${exerciseCalories}</p>
+          <p class="number">${foodCalories}</p>
           <p class="cal">Cal</p>
         </div>
         <img class="trash" src="/images/trash.png" alt="trashcan" width="30" height="30" />
       </div>
     `;
-    exerciseList.insertAdjacentHTML('beforeend', newList);
-    totalCalories += parseInt(exerciseCalories);
+    foodList.insertAdjacentHTML('beforeend', newList);
+    totalCalories += parseInt(foodCalories);
     updateCalButton();
   };
 
@@ -93,25 +94,27 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   const clearForm = () => {
-    document.getElementById('exerciseName').value = '';
-    document.getElementById('exerciseCalories').value = '';
+    document.getElementById('foodName').value = '';
+    document.getElementById('foodAmount').value = '';
+    document.getElementById('foodCalories').value = '';
   };
 
   showFormButton.addEventListener('click', showForm);
   cancelButton.addEventListener('click', hideForm);
 
-  addExerciseButton.addEventListener('click', () => {
-    const exerciseName = document.getElementById('exerciseName').value;
-    const exerciseCalories = document.getElementById('exerciseCalories').value;
+  addFoodButton.addEventListener('click', () => {
+    const foodName = document.getElementById('foodName').value;
+    const foodAmount = document.getElementById('foodAmount').value;
+    const foodCalories = document.getElementById('foodCalories').value;
 
-    if (exerciseName && exerciseCalories) {
-      addList(exerciseName, exerciseCalories);
+    if (foodName && foodAmount && foodCalories) {
+      addList(foodName, foodAmount, foodCalories);
       clearForm();
       hideForm();
     }
   });
 
-  exerciseList.addEventListener('click', deleteItem);
+  foodList.addEventListener('click', deleteItem);
 
   renderDates();
 });
