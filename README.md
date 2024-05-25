@@ -6,3 +6,5 @@
 - Jillian
 - Zalida
 - Trevor
+## How to open locally
+- open this file with your live server locally should be fine
