@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calories Calculator</title>
+  <link rel="stylesheet" href="/addPage/styles.css">
+  <link rel="stylesheet" href="/styles/Home.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">Calories Calculator</h1>
+      <button class="calButton">Cal</button>
+    </header>
+    <section class="dateSelector">
+      <button class="dateNav" id="prevDate">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <div class="dates" id="dateList"></div>
+      <button class="dateNav" id="nextDate">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </section>
+    <section class="meals">
+      <a href="/breakfastAddPage/index.html" class="meal">Breakfast <img src="/images/right-arrow.png" alt="Right Arrow" class="right-arrow" width="11.8" height="20.1"></a>
+      <a href="/lunchAddPage/index.html" class="meal">Lunch <img src="/images/right-arrow.png" alt="Right Arrow" class="right-arrow" width="11.8" height="20.1"></a>
+      <a href="/dinnerAddPage/index.html" class="meal">Dinner <img src="/images/right-arrow.png" alt="Right Arrow" class="right-arrow" width="11.8" height="20.1"></a>
+      <a href="/snacksAddPage/index.html" class="meal">Snacks <img src="/images/right-arrow.png" alt="Right Arrow" class="right-arrow" width="11.8" height="20.1"></a>
+      <a href="/burnedAddPage/index.html" class="meal">Burned <img src="/images/right-arrow.png" alt="Right Arrow" class="right-arrow" width="11.8" height="20.1"></a>
+    </section>
+  </div>
+  ${renderNavbar()}
+
+  <div class="navContainer">
+    <nav class="navbar">
+      <div class="navItem" onclick="navigateTo('home')">
+        <img src="/images/home_icon.svg" alt="Home" width="60" height="60" />
+      </div>
+      <div class="addButtonContainer">
+        <div class="addnewButton" onclick="navigateTo('addNew')">
+          <img src="/images/add_icon.svg" alt="Add" width="80" height="80" />
+        </div>
+      </div>
+      <div class="navItem" onclick="navigateTo('recipes')">
+        <img src="/images/recipes_icon.svg" alt="Recipes" width="55" height="55" />
+      </div>
+    </nav>
+  </div>
+  <script src="/addPage/script.js"></script>
+  <script src="/scripts/navbar.js"></script>
+</body>
+</html>
