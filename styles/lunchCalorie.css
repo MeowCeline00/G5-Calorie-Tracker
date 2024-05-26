@@ -43,25 +43,28 @@
 
 .add_lunch_meal_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 10px;
     background-color: var(--white);
+    gap: 50%; 
+    width: 80%;
+    margin-left: 10%;
 }
 
-.addButtonContainer, .scanButtonContainer {
+.add_lunch_ButtonContainer, .scanButtonContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
 
-.addButtonContainer img, .scanButtonContainer img {
+.add_lunch_ButtonContainer img, .scanButtonContainer img {
     width: 40px;
     height: 40px;
 }
 
-.addButtonContainer p, .scanButtonContainer p {
+.add_lunch_ButtonContainer p, .scanButtonContainer p {
     margin-top: 5px;
     color: var(--purple);
     font-size: 0.9rem;
@@ -75,7 +78,8 @@
 }
 
 .foodItem {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
     justify-content: space-between;
     align-items: center;
     background-color: var(--light_pink);
@@ -123,11 +127,11 @@
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: var(--light_pink);
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
     max-width: 400px;
     border-radius: 10px;
     text-align: center;
@@ -147,3 +151,18 @@
     cursor: pointer;
 }
 
+.mealsInputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.submitButton {
+    width: 40%;
+    color: white;
+    background-color: var(--light_orange);
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+}

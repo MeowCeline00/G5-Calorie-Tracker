@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    navigateTo('home');
+    navigateTo('landing');
 });
 
 function navigateTo(page) {
     switch(page) {
+        case 'landing':
+            renderLandingPage();
+            break;
         case 'home':
             renderHomePage();
             break;
