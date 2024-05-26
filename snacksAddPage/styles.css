@@ -99,6 +99,9 @@
   text-decoration: none;
   color: black;
 }
+.calculate-btn:hover {
+  background-color: rgb(255, 160, 122, 0.8);
+}
 .actions {
   display: flex;
   justify-content: space-between;
