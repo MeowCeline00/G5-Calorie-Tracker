@@ -1,7 +1,7 @@
 #root {
     width: 393px;
     height: 852px;
-    background-color: var(--white);
+    background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -18,7 +18,7 @@
 
 .topBar {
     padding: 15px 20px;
-    background-color: var(--white);
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    background-color: var(--white);
+    background-color: #fff;
 }
 
 .meal_container {
@@ -103,7 +103,7 @@
 
 .mealDetails p {
     margin-left: 10px;
-    color: var(--purple);
+    color: #9E9BF2;
 }
 
 .calorieContainer {
@@ -111,7 +111,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    border: 4px solid var(--yellow);
+    border: 4px solid #F2E088;
     border-radius: 30px;
     padding: 5px 10px;
 }
@@ -132,7 +132,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--yellow);
+    background-color: #F2E088;
     border-radius: 10px 10px 0 0;
     justify-content: space-between;
     align-items: center;
