@@ -13,7 +13,6 @@
     align-items: center;
     padding: 15px;
     background-color: var(--light_pink);
-    border-bottom: 2px solid var(--yellow);
 }
 
 .lunch_icon {
