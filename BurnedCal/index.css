@@ -5,6 +5,7 @@
     width: 393px;
     height: 55px;
 }
+
 .add-page-item {
     position: absolute;
     top: 143px;
@@ -14,6 +15,7 @@
     width: 40px;
     height: 67px;
 }
+
 .add-page-inner {
     position: absolute;
     top: 143px;
@@ -23,6 +25,7 @@
     width: 40px;
     height: 67px;
 }
+
 .rectangle-div {
     position: absolute;
     top: 143px;
@@ -32,6 +35,7 @@
     width: 40px;
     height: 67px;
 }
+
 .add-page-child1 {
     position: absolute;
     top: 143px;
@@ -41,6 +45,7 @@
     width: 40px;
     height: 67px;
 }
+
 .add-page-child2 {
     position: absolute;
     top: 143px;
@@ -50,6 +55,7 @@
     width: 40px;
     height: 67px;
 }
+
 .add-page-child3 {
     position: absolute;
     top: 143px;
@@ -59,6 +65,7 @@
     width: 40px;
     height: 67px;
 }
+
 .add-page-child4 {
     position: absolute;
     top: 143px;
@@ -68,6 +75,7 @@
     width: 40px;
     height: 67px;
 }
+
 .nav-bar-icon {
     position: absolute;
     top: 726px;
@@ -75,6 +83,7 @@
     width: 393px;
     height: 126px;
 }
+
 .total-calories {
     position: absolute;
     top: 248px;
@@ -87,6 +96,7 @@
     width: 163px;
     height: 42px;
 }
+
 .breakfast {
     position: absolute;
     top: 72px;
@@ -99,6 +109,7 @@
     width: 130px;
     height: 42px;
 }
+
 .div {
     position: absolute;
     top: 176px;
@@ -107,6 +118,7 @@
     width: 40px;
     height: 42px;
 }
+
 .sun {
     position: absolute;
     top: 156px;
@@ -115,6 +127,7 @@
     width: 40px;
     height: 20px;
 }
+
 .mon {
     position: absolute;
     top: 156px;
@@ -123,6 +136,7 @@
     width: 40px;
     height: 20px;
 }
+
 .tue {
     position: absolute;
     top: 156px;
@@ -131,6 +145,7 @@
     width: 40px;
     height: 20px;
 }
+
 .wed {
     position: absolute;
     top: 156px;
@@ -139,6 +154,7 @@
     width: 40px;
     height: 20px;
 }
+
 .thur {
     position: absolute;
     top: 156px;
@@ -147,6 +163,7 @@
     width: 40px;
     height: 20px;
 }
+
 .fri {
     position: absolute;
     top: 156px;
@@ -155,6 +172,7 @@
     width: 40px;
     height: 20px;
 }
+
 .sat {
     position: absolute;
     top: 156px;
@@ -163,6 +181,7 @@
     width: 40px;
     height: 20px;
 }
+
 .div1 {
     position: absolute;
     top: 176px;
@@ -171,6 +190,7 @@
     width: 40px;
     height: 42px;
 }
+
 .div2 {
     position: absolute;
     top: 176px;
@@ -179,6 +199,7 @@
     width: 40px;
     height: 42px;
 }
+
 .div3 {
     position: absolute;
     top: 176px;
@@ -187,6 +208,7 @@
     width: 40px;
     height: 42px;
 }
+
 .div4 {
     position: absolute;
     top: 176px;
@@ -195,6 +217,7 @@
     width: 40px;
     height: 42px;
 }
+
 .div5 {
     position: absolute;
     top: 176px;
@@ -203,6 +226,7 @@
     width: 40px;
     height: 42px;
 }
+
 .div6 {
     position: absolute;
     top: 176px;
@@ -211,6 +235,7 @@
     width: 38px;
     height: 42px;
 }
+
 .add-page-child5 {
     position: absolute;
     top: 588px;
@@ -220,6 +245,7 @@
     width: 297px;
     height: 50px;
 }
+
 .add-page-child6 {
     position: absolute;
     top: 657px;
@@ -229,6 +255,7 @@
     width: 297px;
     height: 50px;
 }
+
 .confirm-and-continue {
     position: absolute;
     top: 595px;
@@ -238,6 +265,7 @@
     width: 230px;
     height: 42px;
 }
+
 .go-back {
     position: absolute;
     top: 664px;
@@ -250,6 +278,7 @@
     text-decoration: none;
     color: black
 }
+
 .add-page-child7 {
     position: absolute;
     top: 77px;
@@ -261,6 +290,7 @@
     width: 124px;
     height: 33px;
 }
+
 .cal {
     position: absolute;
     top: 78px;
@@ -273,6 +303,7 @@
     width: 40px;
     height: 23px;
 }
+
 .fluent-mdl2breakfast-icon {
     position: absolute;
     top: 81px;
@@ -280,6 +311,7 @@
     width: 25px;
     height: 25px;
 }
+
 .add-page-child8 {
     position: absolute;
     top: 290px;
@@ -289,15 +321,18 @@
     width: 350px;
     height: 273px;
 }
+
 .your-daily-caloric {
     position: absolute;
     top: 328px;
     left: 63px;
     font-size: var(--body-20-medium-size);
 }
+
 .cal2 {
     color: var(--color-cornflowerblue);
 }
+
 .cal1 {
     position: absolute;
     top: 386px;
@@ -305,6 +340,7 @@
     font-size: 64px;
     text-align: right;
 }
+
 .add-page {
     width: 100%;
     position: relative;
@@ -338,12 +374,13 @@
     width: 50px;
     height: 42.5;
 }
+
 .image02 {
     position: relative;
     width: 66.67px;
     height: 66.67px;
     background-color: #fff;
-    padding:0.25em ;
+    padding: 0.25em;
     border-radius: 360px;
     top: -50px;
 }
@@ -366,6 +403,7 @@
 
 
 }
+
 .pageInnerContainer {
     display: flex;
     flex-direction: column;
