@@ -41,7 +41,6 @@ function renderLunchCaloriePage() {
       <button class="calculateButton" onclick="calculateTotalCalories()">Calculate Calories</button>
     </div>
     ${renderNavbar()}
-    <!-- Add Food Modal -->
     <div id="addFoodModal" class="modal">
       <div class="modal-content">
         <span class="close" onclick="hideAddFoodModal()">&times;</span>
