@@ -11,4 +11,4 @@
 
 ## How to open locally
 
-- Open this file locally with your live server. Which is located at the bottom right of VSCode application.
+- Open this file locally with your live server (Go Online). Which is located at the bottom right of VSCode application.
